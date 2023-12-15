@@ -1,6 +1,6 @@
-# Attentio Theme 
+# Attentio Theme
 
-Elevate your coding sessions with the Attentio theme. Its dark, cool-toned palette and meticulously chosen token colors not only soothe the eyes but also bolster readability and focus, crafting an aesthetic that keeps your attention sharp.
+Enhance your coding sessions with the Attentio theme. Its sleek design and carefully selected colors improve readability and keep you focused.
 
 ## Features
 
@@ -8,8 +8,18 @@ Elevate your coding sessions with the Attentio theme. Its dark, cool-toned palet
 - **Cool-Toned Colors**: A color palette that is easy on the eyes, helping you focus on solving problems.
 - **Syntax Highlighting**: Custom token colors designed to make code more readable and error tracking a breeze.
 
-## Attentio - Dark Theme
-<img src="images/image.png" style="width: 800px; height=800px">
+## Attentio
+
+![Attentio Theme](/images/image.png)
+<img src="https://github.com/Shaditya-Kinlekar/Attentio-Theme/blob/main/images/image.png" style="width: 800px; height=800px">
+
+## Installation Guide (manually)
+
+- 1.Open Visual Studio Code.
+- 2.Go to the Extensions view.
+- 3.Click on the three dots menu (...) and select "Install from VSIX".
+- 4.Browse and select the VSIX file.
+- 5.Click "Install" and restart Visual Studio Code when prompted.
 
 ## Recommended Font Settings
 
