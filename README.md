@@ -10,7 +10,7 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
 
 ## Attentio
 
-![Attentio Theme](/images/image.png)
+![Attentio Theme](https://raw.githubusercontent.com/Shaditya-Kinlekar/Attentio-Theme/main/images/image.png)
 
 ## Installation Guide (manually)
 
