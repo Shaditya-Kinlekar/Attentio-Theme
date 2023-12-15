@@ -1,0 +1,22 @@
+{
+  "name": "Attentio",
+  "displayName": "Attentio",
+  "description": "Your new favourite dark theme with awesome token colors!",
+  "version": "0.0.1",
+  "icon": "images/attentio.jpeg",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Attentio",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Attentio-color-theme.json"
+      }
+    ]
+  }
+}
