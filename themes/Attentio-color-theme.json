@@ -43,7 +43,7 @@
     "debugExceptionWidget.background": "#1a1e33",
     "debugExceptionWidget.border": "#07080e",
     "debugToolBar.background": "#1a1e33",
-    "descriptionForeground": "#c0c4d84d",
+    "descriptionForeground": "#8e8e8e",
     "diffEditor.border": "#07080e",
     "diffEditor.diagonalFill": "#07080e80",
     "diffEditor.insertedLineBackground": "#3cec8520",
