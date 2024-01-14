@@ -21,7 +21,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
-  "workbench.sideBar.location": "right",
+  "editor.inlineSuggest.suppressSuggestions": true,
   "editor.quickSuggestions": {
     "other": "on",
     "comments": "on",
@@ -29,6 +29,7 @@
   },
   "workbench.tree.enableStickyScroll": true,
   "workbench.tree.indent": 19,
+  "explorer.compactFolders": false,
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
   "editor.scrollbar.verticalScrollbarSize": 0,
@@ -58,18 +59,13 @@
   "[javascript]": {
     "editor.snippetSuggestions": "top"
   },
-  "[javascriptreact]": {
-    // "editor.snippetSuggestions": "top"
-  },
   "[typescript]": {
     "editor.snippetSuggestions": "top"
   },
-  "[typescriptreact]": {
-    // "editor.snippetSuggestions": "top"
-  },
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
+    // "javascript": "javascriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescriptreact": "typescriptreact"
   },
 
   // Terminal
@@ -89,6 +85,7 @@
 
   //Extensions
   "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
   "inlineFold.autoFold": false,
   "inlineFold.unfoldedOpacity": 1,
   "tailwindCSS.emmetCompletions": true,
@@ -101,14 +98,58 @@
   "errorLens.fontSize": "14",
   "errorLens.scrollbarHackEnabled": true,
   "svg.preview.mode": "svg",
+  "cody.autocomplete.formatOnAccept": true,
+  "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+
+  // Apc UI
+  "window.titleBarStyle": "native",
+  "apc.menubar.compact": true,
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden"
+  },
+  "apc.statusBar": {
+    "height": 20,
+    "fontSize": 10.5,
+    "position": "editor-bottom"
+  },
+  "apc.header": {
+    "height": 30
+  },
+  "apc.sidebar.titlebar": {
+    "height": 30
+  },
+  "apc.activityBar": {
+    "size": 30,
+    "itemSize": 28,
+    "itemMargin": 0,
+    "position": "bottom"
+  },
+  "apc.listRow": {
+    "lists": ["explorer-folders-view", "quick-input-list"],
+    "height": 28
+  },
+  "apc.stylesheet": {
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container": "height: 1.2px !important",
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-bottom>.tab-border-bottom-container": "height: 1.2px !important",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+    "div.notification-toast:has(div[aria-label='The terminal has no selection to copy, notification'])": "display: none !important",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important"
+  },
+  "apc.font.family": "SF Pro Display",
 
   // Other
-  "window.menuBarVisibility": "compact",
-  "window.titleBarStyle": "custom",
-  "workbench.activityBar.location": "top",
   "git.autofetch": true,
-  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "compact",
   "workbench.colorTheme": "Attentio",
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "gitlens.currentLine.enabled": false,
+  "cody.autocomplete.enabled": true,
+  "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false
 }
