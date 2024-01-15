@@ -282,5 +282,9 @@
   {
     "key": "shift+alt+t",
     "command": "workbench.action.showMultipleEditorTabs"
+  },
+  {
+    "key": "alt+i",
+    "command": "importCost.toggle"
   }
 ]

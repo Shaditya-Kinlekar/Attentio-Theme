@@ -104,9 +104,10 @@
   // Apc UI
   "window.titleBarStyle": "native",
   "apc.menubar.compact": true,
+  "window.customMenuBarAltFocus": false,
   "apc.electron": {
     "frame": false,
-    "titleBarStyle": "hidden"
+    "titleBarStyle": "hiddenInset"
   },
   "apc.statusBar": {
     "height": 20,
@@ -140,21 +141,23 @@
     ".quick-input-list-row div": "display: flex !important; align-items: center !important"
   },
   "apc.font.family": "SF Pro Display",
+  // "workbench.colorCustomizations": {
+  //   "[Attentio]": {
+  //   }
+  // },
 
   // Other
+  "workbench.editor.wrapTabs": true,
   "git.autofetch": true,
   "window.menuBarVisibility": "compact",
+  "workbench.colorTheme": "Attentio",
   "material-icon-theme.activeIconPack": "react_redux",
   "material-icon-theme.hidesExplorerArrows": true,
   "gitlens.currentLine.enabled": false,
   "cody.autocomplete.enabled": true,
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Attentio",
-  "workbench.statusBar.visible": false,
-  // "workbench.colorCustomizations": {
-  //   "[Attentio]": {
-  //   }
-  // },
-  "breadcrumbs.enabled": false
+  "cody.editorTitleCommandIcon": false,
+  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": false
 }

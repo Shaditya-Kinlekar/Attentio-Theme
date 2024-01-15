@@ -253,7 +253,7 @@
     "profileBadge.foreground": "#111422",
     "progressBar.background": "#eacd61",
     "quickInput.foreground": "#9298ba",
-    "quickInputList.focusBackground": "#343c6673",
+    "quickInputList.focusBackground": "#0c3f5f",
     "quickInputList.focusForeground": "#f0f1f5",
     "quickInputTitle.background": "#0d101b",
     "sash.hoverBorder": "#8eb0e650",
