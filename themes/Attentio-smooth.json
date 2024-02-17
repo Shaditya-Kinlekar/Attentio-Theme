@@ -366,7 +366,7 @@
         "punctuation.definition.strikethrough.markdown"
       ],
       "settings": {
-        "foreground": "#CCCCCC80"
+        "foreground": "#cccccc8a"
       }
     },
     {

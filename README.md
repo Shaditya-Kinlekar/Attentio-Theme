@@ -29,6 +29,7 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
   "editor.lineHeight": 38,
   "window.zoomLevel": 2,
   "workbench.iconTheme": "symbols",
+  "symbols.hidesExplorerArrows": true,
   "workbench.sideBar.location": "right",
   "workbench.editor.showTabs": "single",
   "workbench.tree.indent": 19,

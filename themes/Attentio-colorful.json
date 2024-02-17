@@ -379,14 +379,23 @@
       }
     },
     {
+      "name": "COMMENT",
       "scope": [
         "comment",
         "punctuation.definition.comment",
-        "string.quoted.docstring.multi",
-        "comment.block.documentation source"
+        "punctuation.definition.tag",
+        "comment.block.documentation punctuation.definition.bracket",
+        "source.ocaml comment constant.regexp meta.separator",
+        "markup.other.anchor support.constant",
+        "markup.fenced_code",
+        "markup.fenced_code punctuation.definition",
+        "punctuation.definition.heading",
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.strikethrough.markdown"
       ],
       "settings": {
-        "foreground": "#CCCCCC80",
+        "foreground": "#cccccc8a",
         "fontStyle": "italic"
       }
     },

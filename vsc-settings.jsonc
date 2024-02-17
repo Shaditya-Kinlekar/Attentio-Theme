@@ -1,17 +1,23 @@
 {
   //  Font
-  "editor.fontFamily": "'Lilex'",
-  "editor.fontLigatures": "'calt', 'ss02', 'zero', 'cv01', 'cv08', 'cv09'",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 40,
+  // "editor.fontFamily": "'Lilex'",
+  // "editor.fontLigatures": "'calt', 'ss02', 'ss04', 'zero', 'cv01', 'cv08', 'cv09'",
+  // "editor.fontSize": 15,
+  // "editor.lineHeight": 40,
+  // "window.zoomLevel": 2,
+  // "editor.fontWeight": "500",
+  // "editor.letterSpacing": 0.1,
+
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": "'calt', 'ss02', 'ss03', 'ss04', 'ss05', 'ss08', 'cv01', 'cv14', 'cv16', 'cv17', 'cv18', 'cv30'",
+  "editor.fontSize": 14.5,
+  "editor.lineHeight": 38,
   "window.zoomLevel": 2,
-  "editor.fontWeight": "500",
-  "editor.letterSpacing": 0.1,
 
   // Editor
   "editor.tabSize": 2,
   "workbench.startupEditor": "none",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -20,7 +26,6 @@
   "editor.tabCompletion": "on",
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.wordWrap": "on",
-  "files.autoSave": "afterDelay",
   "editor.inlineSuggest.suppressSuggestions": true,
   "editor.quickSuggestions": {
     "other": "on",
@@ -29,6 +34,7 @@
   },
   "workbench.tree.enableStickyScroll": true,
   "workbench.tree.indent": 19,
+  "workbench.tree.renderIndentGuides": "none",
   "explorer.compactFolders": false,
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
@@ -42,7 +48,6 @@
   "css.lint.unknownAtRules": "ignore",
   "editor.minimap.renderCharacters": false,
   "workbench.commandPalette.experimental.suggestCommands": true,
-  "editor.quickSuggestionsDelay": 0,
   "editor.smoothScrolling": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -57,10 +62,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
-    "editor.snippetSuggestions": "top"
-  },
-  "[typescript]": {
-    "editor.snippetSuggestions": "top"
+    // "editor.snippetSuggestions": "top"
   },
   "emmet.includeLanguages": {
     // "javascript": "javascriptreact",
@@ -69,7 +71,7 @@
   },
 
   // Terminal
-  "terminal.integrated.lineHeight": 1.1,
+  // "terminal.integrated.lineHeight": 1,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 14,
@@ -85,7 +87,7 @@
 
   //Extensions
   "code-runner.saveFileBeforeRun": true,
-  "code-runner.runInTerminal": true,
+  // "code-runner.runInTerminal": true,
   "inlineFold.autoFold": false,
   "inlineFold.unfoldedOpacity": 1,
   "tailwindCSS.emmetCompletions": true,
@@ -94,12 +96,15 @@
     "properties": true
   },
   "codeium.enableCodeLens": false,
-  "codeium.enableSearch": true,
+  "codeium.enableExplainProblem": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
   "errorLens.fontSize": "14",
   "errorLens.scrollbarHackEnabled": true,
   "svg.preview.mode": "svg",
-  "cody.autocomplete.formatOnAccept": true,
-  "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "eslint.run": "onSave",
 
   // Apc UI
   "window.titleBarStyle": "native",
@@ -110,7 +115,7 @@
     "titleBarStyle": "hiddenInset"
   },
   "apc.statusBar": {
-    "height": 20,
+    "height": 18,
     "fontSize": 10.5,
     "position": "editor-bottom"
   },
@@ -129,9 +134,12 @@
   },
   "apc.listRow": {
     "lists": ["explorer-folders-view", "quick-input-list"],
-    "height": 28
+    "height": 28,
+    "fontSize": 12.5
   },
   "apc.stylesheet": {
+    ".explorer-folders-view .monaco-list-row": "padding-left: 8px !important",
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container>.title-label": "display: flex !important; align-items: center !important",
     ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container": "height: 1.2px !important",
     ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-bottom>.tab-border-bottom-container": "height: 1.2px !important",
     ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
@@ -140,24 +148,27 @@
     ".sidebar": "border: none !important",
     ".quick-input-list-row div": "display: flex !important; align-items: center !important"
   },
-  "apc.font.family": "SF Pro Display",
+  "apc.font.family": "Zed Mono Extended",
   // "workbench.colorCustomizations": {
-  //   "[Attentio]": {
+  //   "[Attentio Smooth]": {
+  //   }
+  // },
+  // "editor.tokenColorCustomizations": {
+  //   "[Attentio Smooth]": {
   //   }
   // },
 
   // Other
   "workbench.editor.wrapTabs": true,
+  "workbench.editor.showTabs": "single",
   "git.autofetch": true,
   "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "Attentio",
-  "material-icon-theme.activeIconPack": "react_redux",
-  "material-icon-theme.hidesExplorerArrows": true,
   "gitlens.currentLine.enabled": false,
-  "cody.autocomplete.enabled": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "symbols.hidesExplorerArrows": true,
+  "editor.stickyScroll.enabled": true,
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
-  "cody.editorTitleCommandIcon": false,
   "breadcrumbs.enabled": false,
-  "workbench.statusBar.visible": false
+  "workbench.colorTheme": "Attentio Smooth"
 }
