@@ -330,7 +330,7 @@
     "symbolIcon.variableForeground": "#383a42",
     "tab.activeBorderTop": "#000000",
     "tab.activeBackground": "#000000",
-    "tab.activeForeground": "#FFFFFF",
+    "tab.activeForeground": "#000",
     "tab.border": "#000000",
     "tab.hoverBackground": "#f5f5f5",
     "tab.hoverForeground": "#000000",
@@ -546,10 +546,7 @@
     },
     {
       "name": "Storage",
-      "scope": [
-        "storage",
-        "constant.language"
-      ],
+      "scope": ["storage", "constant.language"],
       "settings": {
         "foreground": "#0098dd"
       }
@@ -577,10 +574,7 @@
     },
     {
       "name": "Integers",
-      "scope": [
-        "constant.numeric",
-        "variable.other.anonymous.elixir"
-      ],
+      "scope": ["constant.numeric", "variable.other.anonymous.elixir"],
       "settings": {
         "foreground": "#ce33c0"
       }
@@ -616,20 +610,14 @@
     },
     {
       "name": "Tags",
-      "scope": [
-        "entity.name.tag",
-        "punctuation.definition.tag"
-      ],
+      "scope": ["entity.name.tag", "punctuation.definition.tag"],
       "settings": {
         "foreground": "#275fe4"
       }
     },
     {
       "name": "Attribute IDs",
-      "scope": [
-        "entity.other.attribute-name",
-        "string.unquoted.alias.graphql"
-      ],
+      "scope": ["entity.other.attribute-name", "string.unquoted.alias.graphql"],
       "settings": {
         "foreground": "#df631c"
       }
@@ -670,10 +658,7 @@
     },
     {
       "name": "Bold",
-      "scope": [
-        "markup.bold",
-        "punctuation.definition.bold"
-      ],
+      "scope": ["markup.bold", "punctuation.definition.bold"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#d52753"
@@ -681,10 +666,7 @@
     },
     {
       "name": "Italic",
-      "scope": [
-        "markup.italic",
-        "punctuation.definition.italic"
-      ],
+      "scope": ["markup.italic", "punctuation.definition.italic"],
       "settings": {
         "foreground": "#df631c",
         "fontStyle": "italic"
@@ -692,10 +674,7 @@
     },
     {
       "name": "Strikethrough",
-      "scope": [
-        "markup.strikethrough",
-        "punctuation.definition.strikethrough"
-      ],
+      "scope": ["markup.strikethrough", "punctuation.definition.strikethrough"],
       "settings": {
         "foreground": "#a0a1a7",
         "fontStyle": "strikethrough"
@@ -795,10 +774,7 @@
     },
     {
       "name": "Escape Characters",
-      "scope": [
-        "constant.character.escape",
-        "constant.other.character-class"
-      ],
+      "scope": ["constant.character.escape", "constant.other.character-class"],
       "settings": {
         "foreground": "#df631c"
       }
@@ -862,11 +838,7 @@
     },
     {
       "name": "Markup Code",
-      "scope": [
-        "markup.inline.raw",
-        "markup.fenced_code.block",
-        "markup.raw.block"
-      ],
+      "scope": ["markup.inline.raw", "markup.fenced_code.block", "markup.raw.block"],
       "settings": {
         "foreground": "#a05a48"
       }
@@ -891,10 +863,7 @@
     },
     {
       "name": "Type Primitive",
-      "scope": [
-        "support.type.primitive",
-        "support.type.builtin"
-      ],
+      "scope": ["support.type.primitive", "support.type.builtin"],
       "settings": {
         "foreground": "#0098dd"
       }
@@ -1226,9 +1195,7 @@
     },
     {
       "name": "STRIKETHROUGH",
-      "scope": [
-        "markup.strikethrough"
-      ],
+      "scope": ["markup.strikethrough"],
       "settings": {
         "fontStyle": "strikethrough"
       }
