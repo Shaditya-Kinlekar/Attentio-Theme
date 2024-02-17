@@ -16,15 +16,6 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
 
 ![Attentio Smooth Theme](/images/attentio-smooth.png)
 
-## Installation Guide (manually)
-
-1. Download the [vsix file](https://github.com/Shaditya-Kinlekar/Attentio-Theme/releases/tag/latest).
-2. Open Visual Studio Code.
-3. Go to the Extensions view.
-4. Click on the three dots menu (...) and select "Install from VSIX".
-5. Browse and select the VSIX file.
-6. Click "Install" and restart Visual Studio Code when prompted.
-
 ## Recommended Settings
 
 ```json
