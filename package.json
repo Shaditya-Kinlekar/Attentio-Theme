@@ -15,13 +15,16 @@
   "keywords": [
     "theme",
     "dark theme",
+    "light theme",
     "smooth theme",
     "colorful theme",
     "best dark theme",
+    "best light theme",
     "coder theme",
     "Attentio",
     "Attentio Colorful",
     "Attentio Smooth",
+    "Attentio Light",
     "Shadz",
     "Shadz.dev",
     "Shaditya"
@@ -40,6 +43,11 @@
         "label": "Attentio Smooth",
         "uiTheme": "vs-dark",
         "path": "./themes/Attentio-smooth.json"
+      },
+      {
+        "label": "Attentio Light",
+        "uiTheme": "vs",
+        "path": "./themes/Attentio-light.json"
       }
     ]
   }
