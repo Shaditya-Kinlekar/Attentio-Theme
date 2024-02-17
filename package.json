@@ -3,7 +3,7 @@
   "displayName": "Attentio",
   "description": "Enjoy a more focused and comfortable coding experience with Attentio!",
   "version": "0.0.1",
-  "publisher": "shadz.dev",
+  "publisher": "shadz-dev",
   "icon": "images/attentio.jpeg",
   "repository": {
     "type": "git",
@@ -15,11 +15,13 @@
   "keywords": [
     "theme",
     "dark theme",
+    "smooth theme",
+    "colorful theme",
     "best dark theme",
     "coder theme",
     "Attentio",
-    "Attentio Blue",
-    "Attentio Black",
+    "Attentio Colorful",
+    "Attentio Smooth",
     "Shadz",
     "Shadz.dev",
     "Shaditya"

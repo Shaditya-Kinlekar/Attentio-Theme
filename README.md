@@ -8,7 +8,7 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
 - **Cool-Toned Colors**: A color palette that is easy on the eyes, helping you focus on solving problems.
 - **Syntax Highlighting**: Custom token colors designed to make code more readable and error tracking a breeze.
 
-### 1. Attentio Colorfull
+### 1. Attentio Colorful
 
 ![Attentio Colorful Theme](/images/attentio-colorful.png)
 
