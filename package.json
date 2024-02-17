@@ -1,7 +1,7 @@
 {
   "name": "attentio",
   "displayName": "Attentio",
-  "description": "Your new favourite dark theme with awesome token colors!",
+  "description": "Enjoy a more focused and comfortable coding experience with Attentio!",
   "version": "0.0.1",
   "publisher": "shadz.dev",
   "icon": "images/attentio.jpeg",
@@ -12,15 +12,32 @@
   "engines": {
     "vscode": "^1.85.0"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "best dark theme",
+    "coder theme",
+    "Attentio",
+    "Attentio Blue",
+    "Attentio Black",
+    "Shadz",
+    "Shadz.dev",
+    "Shaditya"
+  ],
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Attentio",
+        "label": "Attentio Colorful",
         "uiTheme": "vs-dark",
-        "path": "./themes/Attentio-color-theme.json"
+        "path": "./themes/Attentio-colorful.json"
+      },
+      {
+        "label": "Attentio Smooth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Attentio-smooth.json"
       }
     ]
   }

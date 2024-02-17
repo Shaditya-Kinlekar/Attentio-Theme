@@ -8,9 +8,13 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
 - **Cool-Toned Colors**: A color palette that is easy on the eyes, helping you focus on solving problems.
 - **Syntax Highlighting**: Custom token colors designed to make code more readable and error tracking a breeze.
 
-## Attentio
+### 1. Attentio Colorfull
 
-![Attentio Theme](https://raw.githubusercontent.com/Shaditya-Kinlekar/Attentio-Theme/main/images/image.png)
+![Attentio Colorful Theme](/images/attentio-colorful.png)
+
+### 2. Attentio Smooth
+
+![Attentio Smooth Theme](/images/attentio-smooth.png)
 
 ## Installation Guide (manually)
 
@@ -21,16 +25,19 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
 5. Browse and select the VSIX file.
 6. Click "Install" and restart Visual Studio Code when prompted.
 
-## Recommended Font Settings
+## Recommended Settings
 
 ```json
-  "editor.fontFamily": "'Lilex'",
-  "editor.fontLigatures": "'calt', 'ss02', 'zero', 'cv01', 'cv08', 'cv09'",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 40,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": "'calt', 'ss02', 'ss03', 'ss04', 'ss05', 'ss08', 'cv01', 'cv14', 'cv16', 'cv17', 'cv18', 'cv30'",
+  "editor.fontSize": 14.5,
+  "editor.lineHeight": 38,
   "window.zoomLevel": 2,
-  "editor.fontWeight": "500",
-  "editor.letterSpacing": 0.1,
+  "workbench.iconTheme": "symbols",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 19,
+  "workbench.tree.renderIndentGuides": "none",
+  "explorer.compactFolders": false,
 ```
 
 **Happy Coding!**
