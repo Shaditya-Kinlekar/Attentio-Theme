@@ -16,6 +16,10 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
 
 ![Attentio Smooth Theme](/images/attentio-smooth.png)
 
+### 3. Attentio Light
+
+![Attentio Light Theme](/images/attentio-light.png)
+
 ## Recommended Settings
 
 ```json
