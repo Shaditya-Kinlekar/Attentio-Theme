@@ -22,9 +22,12 @@
     "best light theme",
     "coder theme",
     "Attentio",
-    "Attentio Colorful",
-    "Attentio Smooth",
-    "Attentio Light",
+    "Attentio Flow",
+    "Attentio Pulse",
+    "Attentio Glow",
+    "Glow",
+    "Pulse",
+    "Flow",
     "Shadz",
     "Shadz.dev",
     "Shaditya"
@@ -35,19 +38,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Attentio Colorful",
+        "label": "Attentio Flow",
         "uiTheme": "vs-dark",
-        "path": "./themes/Attentio-colorful.json"
+        "path": "./themes/Attentio-flow.json"
       },
       {
-        "label": "Attentio Smooth",
+        "label": "Attentio Pulse",
         "uiTheme": "vs-dark",
-        "path": "./themes/Attentio-smooth.json"
+        "path": "./themes/Attentio-pulse.json"
       },
       {
-        "label": "Attentio Light",
+        "label": "Attentio Glow",
         "uiTheme": "vs",
-        "path": "./themes/Attentio-light.json"
+        "path": "./themes/Attentio-glow.json"
       }
     ]
   }

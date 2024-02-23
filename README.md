@@ -5,27 +5,28 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
 ## Features
 
 - **Dark Theme**: A soothing dark background to reduce eye strain during long debugging sessions.
+- **Light Theme**: Ideal for coding in well-lit environments or during the day, offering a clear view of your code.
 - **Cool-Toned Colors**: A color palette that is easy on the eyes, helping you focus on solving problems.
 - **Syntax Highlighting**: Custom token colors designed to make code more readable and error tracking a breeze.
 
-### 1. Attentio Colorful
+### 1. Attentio Flow
 
-![Attentio Colorful Theme](/images/attentio-colorful.png)
+![Attentio Flow Theme](/images/attentio-flow.png)
 
-### 2. Attentio Smooth
+### 2. Attentio Pulse
 
-![Attentio Smooth Theme](/images/attentio-smooth.png)
+![Attentio Pulse Theme](/images/attentio-pulse.png)
 
-### 3. Attentio Light
+### 3. Attentio Glow
 
-![Attentio Light Theme](/images/attentio-light.png)
+![Attentio Glow Theme](/images/attentio-glow.png)
 
 ## Recommended Settings
 
 ```json
-  "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": "'calt', 'ss02', 'ss03', 'ss04', 'ss05', 'ss08', 'cv01', 'cv14', 'cv16', 'cv17', 'cv18', 'cv30'",
-  "editor.fontSize": 14.5,
+  "editor.fontFamily": "'CommitMono'",
+  "editor.fontLigatures": "'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on, 'ss05' on, 'cv01' on, 'cv03' on, 'cv06' on, 'cv08' on, 'cv11' on",
+  "editor.fontSize": 15,
   "editor.lineHeight": 38,
   "window.zoomLevel": 2,
   "workbench.iconTheme": "symbols",
@@ -35,6 +36,11 @@ Enhance your coding sessions with the Attentio theme. Its sleek design and caref
   "workbench.tree.indent": 19,
   "workbench.tree.renderIndentGuides": "none",
   "explorer.compactFolders": false,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "window.menuBarVisibility": "compact",
 ```
 
 **Happy Coding!**

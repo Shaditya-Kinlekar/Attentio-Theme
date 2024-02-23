@@ -2,22 +2,29 @@
   //  Font
   // "editor.fontFamily": "'Lilex'",
   // "editor.fontLigatures": "'calt', 'ss02', 'ss04', 'zero', 'cv01', 'cv08', 'cv09'",
-  // "editor.fontSize": 15,
-  // "editor.lineHeight": 40,
-  // "window.zoomLevel": 2,
-  // "editor.fontWeight": "500",
-  // "editor.letterSpacing": 0.1,
 
-  "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": "'calt', 'ss02', 'ss03', 'ss04', 'ss05', 'ss08', 'cv01', 'cv14', 'cv16', 'cv17', 'cv18', 'cv30'",
-  "editor.fontSize": 14.5,
+  // "editor.fontFamily": "'JetBrains Mono'",
+  // "editor.fontLigatures": true,
+
+  "editor.fontFamily": "'CommitMono'",
+  "editor.fontLigatures": "'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on, 'ss05' on, 'cv01' on, 'cv03' on, 'cv06' on, 'cv08' on, 'cv11' on",
+
+  // "editor.fontFamily": "'Fira Code'",
+  // "editor.fontLigatures": "'calt', 'ss02', 'ss03', 'ss04', 'ss05', 'ss08', 'cv01', 'cv14', 'cv16', 'cv17', 'cv18', 'cv30'",
+
+  // "editor.fontSize": 14.5,
+  "editor.fontSize": 15,
   "editor.lineHeight": 38,
   "window.zoomLevel": 2,
 
   // Editor
   "editor.tabSize": 2,
+  "workbench.editor.wrapTabs": true,
   "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "git.autofetch": true,
   "workbench.iconTheme": "symbols",
+  "symbols.hidesExplorerArrows": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
@@ -49,11 +56,11 @@
   "editor.minimap.renderCharacters": false,
   "workbench.commandPalette.experimental.suggestCommands": true,
   "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.suggest.insertMode": "replace",
   "workbench.editor.tabSizing": "shrink",
-  "workbench.list.smoothScrolling": true,
   "output.smartScroll.enabled": false,
 
   // Language
@@ -65,7 +72,7 @@
     // "editor.snippetSuggestions": "top"
   },
   "emmet.includeLanguages": {
-    // "javascript": "javascriptreact",
+    "javascript": "javascriptreact",
     "javascriptreact": "javascriptreact",
     "typescriptreact": "typescriptreact"
   },
@@ -86,27 +93,31 @@
   "prettier.tabWidth": 2,
 
   //Extensions
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
   "code-runner.saveFileBeforeRun": true,
   // "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
   "inlineFold.autoFold": false,
   "inlineFold.unfoldedOpacity": 1,
   "tailwindCSS.emmetCompletions": true,
   "codeium.enableConfig": {
     "*": true,
-    "properties": true
+    "properties": true,
+    "javascript": false
   },
   "codeium.enableCodeLens": false,
   "codeium.enableExplainProblem": false,
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.runInTerminal": true,
   "errorLens.fontSize": "14",
   "errorLens.scrollbarHackEnabled": true,
   "svg.preview.mode": "svg",
-  "typescript.suggest.paths": false,
-  "javascript.suggest.paths": false,
   "eslint.run": "onSave",
 
   // Apc UI
+  // "apc.font.family": "Zed Mono Extended",
+  "apc.font.family": "CommitMono",
   "window.titleBarStyle": "native",
   "apc.menubar.compact": true,
   "window.customMenuBarAltFocus": false,
@@ -115,7 +126,7 @@
     "titleBarStyle": "hiddenInset"
   },
   "apc.statusBar": {
-    "height": 18,
+    "height": 16,
     "fontSize": 10.5,
     "position": "editor-bottom"
   },
@@ -148,10 +159,9 @@
     ".sidebar": "border: none !important",
     ".quick-input-list-row div": "display: flex !important; align-items: center !important"
   },
-  "apc.font.family": "Zed Mono Extended",
+
   // "workbench.colorCustomizations": {
-  //   "[Attentio Smooth]": {
-  //   }
+  //   "[Attentio Light]": {}
   // },
   // "editor.tokenColorCustomizations": {
   //   "[Attentio Smooth]": {
@@ -159,16 +169,12 @@
   // },
 
   // Other
-  "workbench.editor.wrapTabs": true,
   "workbench.editor.showTabs": "single",
-  "git.autofetch": true,
   "window.menuBarVisibility": "compact",
   "gitlens.currentLine.enabled": false,
-  "path-intellisense.autoTriggerNextSuggestion": true,
-  "symbols.hidesExplorerArrows": true,
   "editor.stickyScroll.enabled": true,
-  "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Attentio Flow",
   "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "Attentio Smooth"
+  "workbench.statusBar.visible": false
 }
